@@ -39,7 +39,7 @@ travelnet.elevator_recipe = {
 -- can still add stations to that network 
 
 travelnet.allow_attach = function( player_name, owner_name, network_name )
-   return false;
+   return true;
 end
 
 
