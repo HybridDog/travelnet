@@ -153,8 +153,8 @@ minetest.register_node("travelnet:elevator", {
 	},
 
 	tiles = {
-		"travelnet_elevator_front.png",
-		"travelnet_elevator_inside_controls.png^travelnet_elevator_arrows.png",
+		"travelnet_elevator_front.png^travelnet_elevator_arrows.png",
+		"travelnet_elevator_inside_controls.png",
 		"travelnet_elevator_sides_outside.png",
 		"travelnet_elevator_inside_ceiling.png",
 		"travelnet_elevator_inside_floor.png",
